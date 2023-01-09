@@ -11,9 +11,13 @@
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.10",
     "react": "^18.2.0",
+    "react-base-table": "^1.13.2",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "react-texty": "^0.6.0",
+    "styled-components": "^5.3.6",
     "typescript": "^4.9.4",
+    "uuid": "^9.0.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -39,5 +43,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@types/styled-components": "^5.1.26",
+    "@types/uuid": "^9.0.0"
   }
 }

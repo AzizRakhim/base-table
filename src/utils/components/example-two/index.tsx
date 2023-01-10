@@ -163,7 +163,13 @@ function ExampleTwo() {
   ];
 
   return (
-    <BaseTable columns={columns} data={data} width={1200} maxHeight={600} />
+    <BaseTable
+      fixed
+      columns={columns}
+      data={data}
+      width={1200}
+      maxHeight={600}
+    />
   );
 }
 
